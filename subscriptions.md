@@ -226,21 +226,6 @@ sequenceDiagram
   - Maintain current subscription status
   - Log incident for monitoring
 
-## Backend API Integration
-
-### Primary Endpoints
-1. **Subscription Status**
-   - GET /api/business/{businessId}/subscription
-   - Returns current subscription state
-
-2. **Business Subscriptions**
-   - GET /api/user/businesses/subscriptions
-   - Returns all owned business subscriptions
-
-3. **Webhook Handler**
-   - POST /api/webhooks/revenuecat
-   - Processes Revenue Cat events
-
 ## State Management
 
 ### Subscription States
